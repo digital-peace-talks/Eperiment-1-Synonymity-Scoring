@@ -1,6 +1,6 @@
 ## About
 
-Segments texts, extracts keywords and conducts a synonym set walk for every possible keyword pair.
+Segments texts, extracts weighed keywords, conducts a synonym set walk for every possible keyword pair and stores the calculated distances.
 
 Parts of this research project will happen inside [Colaboratory](https://colab.research.google.com/drive/1iGL_J01I-SAtw2HG8uoJMLgYhYqMzzAK) as well.
 
@@ -19,7 +19,7 @@ go run cmd/segmenter/*.go "Hello darkness my old friend"
 
 ## Argument Analysis API
 
-We extract keywords, calculation disctance values and store  For a detailed API documentation, please refer to the APIBlueprint located in [apiary.apib](apiary.apib) or check out the interactive docs at [Apiary](https://argumentanalysisresearch.docs.apiary.io/#).
+We extract and weigh keywords, conduct sysnonym set walks and store the calculated disctances. For a detailed API documentation, please refer to the APIBlueprint located in [apiary.apib](apiary.apib) or check out the interactive docs at [Apiary](https://argumentanalysisresearch.docs.apiary.io/#).
 
 ## License
 
