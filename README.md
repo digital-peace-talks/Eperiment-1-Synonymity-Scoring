@@ -1,6 +1,6 @@
 ## About
 
-We segment documents and conduct a synonym set walk using ADW (Align, Disambiguate and Walk)
+Segments texts, extracts keywords and conducts a synonym set walk for every possible keyword pair.
 
 Parts of this research project will happen inside [Colaboratory](https://colab.research.google.com/drive/1iGL_J01I-SAtw2HG8uoJMLgYhYqMzzAK) as well.
 
@@ -19,7 +19,7 @@ go run cmd/segmenter/*.go "Hello darkness my old friend"
 
 ## Argument Analysis API
 
-For a detailed API documentation, please refer to the APIBlueprint located in [apiary.apib](apiary.apib) or check out the interactive docs at [Apiary](https://argumentanalysisresearch.docs.apiary.io/#).
+We extract keywords, calculation disctance values and store  For a detailed API documentation, please refer to the APIBlueprint located in [apiary.apib](apiary.apib) or check out the interactive docs at [Apiary](https://argumentanalysisresearch.docs.apiary.io/#).
 
 ## License
 
